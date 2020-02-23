@@ -5,7 +5,7 @@ class Command {
 		this.admin = admin;
 	}
 
-	execute(bot, msg, args){} // nothing to do here lmao
+	async execute(bot, msg, args){} // nothing to do here lmao
 
 	getName(){
 		return this.name;

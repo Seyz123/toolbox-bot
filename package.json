@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Seyz123/toolbox-bot#readme",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "discord.js": "^11.5.1",
+    "google-play-scraper": "^7.1.2"
   }
 }
