@@ -27,7 +27,7 @@ const daysTab = {
 	6: "Sunday"
 }
 
-class TestCommand extends Command {
+class ToolboxCommand extends Command {
 	constructor(){
 		super("toolbox", "Get Toolbox's informations");
 	}
@@ -77,4 +77,4 @@ class TestCommand extends Command {
 	}
 }
 
-module.exports = TestCommand;
+module.exports = ToolboxCommand;
