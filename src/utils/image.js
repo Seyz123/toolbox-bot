@@ -19,7 +19,7 @@ class ImageUtils {
 		ctx.fillText(text, canvas.width / 2, canvas.height / 2.4);
 
 		let aspect = 84;
-		let y = canvas.height / 1.4;
+		let y = canvas.height / 1.3;
 		ctx.font = `${aspect}px LRaleway`;
 
 		console.log(Math.floor((ctx.measureText(name).width / 2) + (canvas.width / 2)));
