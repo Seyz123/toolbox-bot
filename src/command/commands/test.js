@@ -9,7 +9,10 @@ class TestCommand extends Command {
 
 	async execute(msg, args){
 		try {
-			msg.reply("Nothing here :p");
+			let gen = await img.createWelcome(msg.author);
+			let buff = gen.toBuffer();
+			let attach = new Attachment(buff, "welcome.png");
+			msg.channel.send(attach);
 		}
 		catch(err){
 			console.log(err);
